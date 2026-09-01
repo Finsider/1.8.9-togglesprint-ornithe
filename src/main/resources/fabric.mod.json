@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "togglesprint",
+  "name": "Toggle Sprint",
+  "version": "${version}",
+  "environment": "*",
+  "description": "toglge sprint",
+  "authors": ["Finside"],
+  "entrypoints": {
+    "main": [
+      "com.example.ToggleSprint"
+    ]
+  },
+  "mixins": [
+    "togglesprint.mixins.json"
+  ]
+}
