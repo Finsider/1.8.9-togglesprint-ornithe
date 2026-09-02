@@ -12,14 +12,14 @@ public class ToggleSprint implements ModInitializer {
 
 	public static KeyBinding toggleSprintKey;
 
-	public static boolean isSprintToggled = false;
+	public static boolean isSprintToggled = true;
 
 	@Override
 	public void onInitialize() {
 		KeybindEvents.REGISTER_KEYBINDS.register(this::keyInit);
 
 		ClientWorldEvents.TICK_END.register(e -> {
-			if (toggleSprintKey.isPressed()) isSprintToggled = !isSprintToggled;
+			if (toggleSprintKey.consumeClick()) isSprintToggled = !isSprintToggled;
 		});
 	}
 
