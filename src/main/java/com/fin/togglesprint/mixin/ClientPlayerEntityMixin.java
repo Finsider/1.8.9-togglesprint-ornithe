@@ -1,6 +1,6 @@
-package com.example.mixin;
+package com.fin.togglesprint.mixin;
 
-import com.example.ToggleSprint;
+import com.fin.togglesprint.ToggleSprint;
 import net.minecraft.client.entity.living.player.LocalClientPlayerEntity;
 import net.minecraft.client.options.KeyBinding;
 import org.spongepowered.asm.mixin.Mixin;

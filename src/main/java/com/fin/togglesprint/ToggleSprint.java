@@ -1,4 +1,4 @@
-package com.example;
+package com.fin.togglesprint;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.client.options.KeyBinding;

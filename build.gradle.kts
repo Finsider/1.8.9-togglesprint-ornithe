@@ -3,7 +3,7 @@ plugins {
     id("ploceus") version("1.17.+")
 }
 
-group = "com.example"
+group = "com.fin.togglesprint"
 version = "mod_version"()
 
 ploceus {

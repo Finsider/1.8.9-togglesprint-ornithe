@@ -8,7 +8,7 @@
   "authors": ["Finside"],
   "entrypoints": {
     "main": [
-      "com.example.ToggleSprint"
+      "com.fin.togglesprint.ToggleSprint"
     ]
   },
   "mixins": [
